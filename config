@@ -1,0 +1,7 @@
+[aws_sqs_*]
+user  nobody
+group munin
+env.aws_access_key_id      your_access_key
+env.aws_secret_access_key  your_secret_key
+env.aws_sqs_size_warning   100000
+env.aws_sqs_size_critical  1000000
