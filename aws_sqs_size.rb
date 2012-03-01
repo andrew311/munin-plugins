@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 require 'rubygems'
-require 'aws_sdk'
+require 'right_aws'
 
 LOGGER = Logger.new(STDOUT)
 LOGGER.level = Logger::FATAL
